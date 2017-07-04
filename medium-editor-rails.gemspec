@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'medium-editor-rails/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'medium-editor-rails'
+  gem.name          = 'medium-editor-thalaippu'
   gem.version       = MediumEditorRails::Rails::VERSION
   gem.authors       = ['Ahmet Sezgin Duran', 'Gabriel Medina']
   gem.email         = ['marjinalist1@gmail.com', 'gmedina.santos@gmail.com']
