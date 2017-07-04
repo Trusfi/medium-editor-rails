@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'medium-editor-thalaippu/version'
+require 'medium-editor-rails/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'medium-editor-thalaippu'
+  gem.name          = 'medium-editor-rails'
   gem.version       = MediumEditorRails::Rails::VERSION
   gem.authors       = ['Ahmet Sezgin Duran', 'Gabriel Medina']
   gem.email         = ['marjinalist1@gmail.com', 'gmedina.santos@gmail.com']
   gem.summary       = %q{Metdium Editor integrated in Rails asset pipeline}
   gem.description   = gem.summary
-  gem.homepage      = 'https://github.com/Trusfi/medium-editor-rails'
+  gem.homepage      = 'https://github.com/marjinal1st/medium-editor-rails'
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
